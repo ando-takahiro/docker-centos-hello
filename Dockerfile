@@ -12,5 +12,5 @@ RUN git clone https://github.com/ando-takahiro/docker-centos-hello.git
 # Install app dependencies
 RUN cd /docker-centos-hello; npm install
 
-EXPOSE  8080
+EXPOSE  80
 CMD ["node", "/docker-centos-hello/index.js"]
